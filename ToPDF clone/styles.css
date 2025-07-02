@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  /*background-image: url('GuNRN9ZW0AA1Dup.jpg');*/
+  background-color: #6027ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +8,7 @@ body {
 }
 
 .container {
-  background: white;
+  background: linear-gradient(to bottom, #ffffff, #53e4e4, #577ed1);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,20 +17,31 @@ body {
 }
 
 textarea {
-  width: 100%;
+  width: 300px;
   height: 200px;
   margin-bottom: 15px;
   padding: 10px;
   font-size: 16px;
+  border-radius: 15px;
 }
 
 button {
+  background: linear-gradient(to right, #48dadf, #7b55e2, #e24f7b);
+  border-radius: 20px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
+  border: 1px solid white;
+}
+
+button:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 #drop-area {
   border: 2px dashed #ccc;
+  border-radius: 20px;
   padding: 20px;
   cursor: pointer;
   margin-bottom: 15px;
